@@ -2,14 +2,16 @@
 #'
 #' @param sce the SingleCellExperiment object
 #'
-#' @return
+#' @return SingleCellExperiment object with logcounts slot containing normalised expression values
 #'
 #' @importFrom scran computeSumFactors
 #' @importFrom scater normalize
+#' @importFrom SingleCellExperiment sizeFactors sizeFactors<- counts
+#'
 #' @export
-scran_norm <- function(sce) {
+norm_scran <- function(sce) {
     sce <- scran::computeSumFactors(sce)
-    sce <- scran::normalize(sce) # goes to `logcounts` by default
+    sce <- scater::normalize(sce) # goes to `logcounts` by default
 
     return(sce)
 }

@@ -11,7 +11,11 @@ Depends:
     R (>= 3.5.0),
     CellBench
 Imports:
-    scater
+    scater,
+    edgeR,
+    DESeq2,
+    scran,
+    Linnorm
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
