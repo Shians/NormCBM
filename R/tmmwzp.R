@@ -4,7 +4,7 @@
 #' @inherit norm_scran return
 #'
 #' @export
-norm_TMM <- function(sce) {
+norm_tmmwzp <- function(sce) {
     sizeFactors(sce) <- edgeR::calcNormFactors(counts(sce), method = "TMMwzp")
     sce <- scater::normalize(sce)
 

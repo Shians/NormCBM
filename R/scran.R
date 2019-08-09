@@ -6,7 +6,6 @@
 #'
 #' @importFrom scran computeSumFactors
 #' @importFrom scater normalize
-#' @importFrom SingleCellExperiment sizeFactors sizeFactors<- counts
 #'
 #' @export
 norm_scran <- function(sce) {
