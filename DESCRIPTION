@@ -16,7 +16,10 @@ Imports:
     DESeq2,
     scran,
     Linnorm,
-    SCnorm
+    SCnorm,
+    sctransform
+Remotes:
+    Remotes: ChristophH/sctransform
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
