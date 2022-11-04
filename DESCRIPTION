@@ -1,7 +1,7 @@
 Package: NormCBM
 Type: Package
 Title: Normalisation Method Wrappers for CellBench
-Version: 0.1.1
+Version: 0.1.2
 Author@R: person("Shian", "Su", email = "su.s@wehi.edu.au", role = c("cre", "aut"))
 Maintainer: Shian Su <su.s@wehi.edu.au>
 Description: Provide wrappers for various single cell normalisation methods for use with CellBench
@@ -18,8 +18,6 @@ Imports:
     Linnorm,
     SCnorm,
     sctransform
-Remotes:
-    ChristophH/sctransform
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

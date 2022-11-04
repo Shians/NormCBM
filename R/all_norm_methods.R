@@ -6,6 +6,7 @@ all_norm_methods <- function() {
         "logcpm" = norm_logcpm,
         "scnorm" = norm_scnorm,
         "scran" = norm_scran,
+        "sctransform" = norm_sctransform,
         "tmm" = norm_tmm,
         "tmmwzp" = norm_tmmwzp
     )
